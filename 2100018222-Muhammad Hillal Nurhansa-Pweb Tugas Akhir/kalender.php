@@ -1,4 +1,13 @@
-<body background="foto4.png">
+<head>
+<style>
+     body
+        {
+            background-image: url('foto4.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+  </head>
 <?php
 $hari=date("d");
 $hariini=$hari;
